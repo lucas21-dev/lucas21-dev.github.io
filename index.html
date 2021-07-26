@@ -3,58 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Lucas Rodrigues</title>
-    <style>
-        
-        body {
-            background-color: #FFC300;
-            color: #003566;
-        }
-        
-        h1 {
-            font-family: impact, sans-serif;
-        }
-
-        p {
-            font-family: Helvetica, sans-serif;
-        }
-        
-        em {
-            font-weight: 100;
-            font-size: 19px;
-        }
-
-        strong {
-            font-weight: 900;
-        }
-
-        .teamwork {
-            font-size: 25px;
-        }
-
-        .html {
-            font-size: 22px;
-        }
-        
-        .photoshop {
-            font-size: 28px;
-        }
-
-        .learning-machine {
-            font-size: 30px;
-        }
-
-        .linkedin {
-            font-size: 30px;
-            font-weight: 800;
-        }
-
-
-
-        
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Lucas Rodrigues Paulino</h1>
+    <div>
+        <h1>Lucas Rodrigues Paulino</h1>
+    </div>
+    
     <ul>
         <li><a href="#description"> Quem sou?</a></li>
         <br>
@@ -63,19 +18,22 @@
         <li><a href="https://www.youtube.com/watch?v=d7qQVXdiREU" target="_blank">Clica aqui!</a></li>
     </ul>
     <br>
-    <img id="photo" src="imagens/eu.jpg" alt="desenvolvedor Lucas Rodrigues" width="400">
-    <hr>
-    <h2>Quem sou</h2>
-    <p id="description">Olá me chamo <em>Lucas Rodrigues</em>, sou nascido e atualmente moro em <strong>Brasília-DF</strong> <br>
-    tenho 24 anos e estudo desenvolvimento de software na Trybe!! <br>
-    <strong>Seja Bem Vindo!</strong></p>
-    <a class="linkedin" href="https://www.linkedin.com/in/lucasrod21/" target="_blank">Linkedin</a>
-    <br>
-    <br>
-    <a class="linkedin" href="https://github.com/lucas21-dev" target="_blank">GitHub</a>
-    <br>
-    <hr>
-    <h2 id="habilities">Habilidades</h2>
+    <div class="description">
+        <div class="infos photo">
+            <img  src="imagens/eu.jpg" alt="desenvolvedor Lucas Rodrigues" width="400">
+        </div>
+        <div class="infos quem-sou">
+            <h2>Quem sou</h2>
+            <p>Olá me chamo <em>Lucas Rodrigues</em>, sou nascido e atualmente moro em <strong>Brasília-DF</strong> <br>
+            tenho 24 anos e estudo desenvolvimento de software na Trybe!! <br>
+            <strong>Seja Bem Vindo!</strong></p>
+            <div>
+                <a class="linkedin" href="https://www.linkedin.com/in/lucasrod21/" target="_blank">Linkedin</a>
+                <br>
+                <a class="linkedin" href="https://github.com/lucas21-dev" target="_blank">GitHub</a>
+            </div>
+    </div>
+    <h2>Habilidades</h2>
     <ul>
         <li class="teamwork">Trabalho em equipe</li>
         <br>
@@ -83,11 +41,11 @@
         <br>
         <li class="photoshop">Photoshop</li>
         <br>
-        <li class="learning-machine"><strong>Muita vontade de aprender e Compartilhar!</strong></li>
+        <li class="learning-machine">Muita vontade de aprender e Compartilhar!</li>
     </ul>
     <hr>
      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <a href="#photo">Perdido?</a>
+    <a href=".photo">Perdido?</a>
 
 </body>
 </html>
